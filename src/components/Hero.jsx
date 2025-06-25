@@ -1,5 +1,6 @@
 import React from "react";
-import Typed from "react-typed";
+import { Typewriter } from "react-simple-typewriter";
+
 
 export default function Hero() {
   return (
@@ -11,18 +12,23 @@ export default function Hero() {
       <h1 className="text-5xl md:text-7xl font-bold text-cyberGreen mb-6">
         Hi, I’m Susil
       </h1>
-      <Typed
-        className="text-2xl md:text-3xl text-cyberPink font-semibold"
-        strings={[
-          "Crypto trader.",
-          "Web developer.",
-          "Cybersecurity enthusiast.",
-          "AI & blockchain explorer.",
-        ]}
-        typeSpeed={60}
-        backSpeed={40}
-        loop
-      />
+ <p className="text-2xl md:text-3xl text-cyberPink font-semibold">
+  <Typewriter
+    words={[
+      "Crypto trader.",
+      "Web developer.",
+      "Cybersecurity enthusiast.",
+      "AI & blockchain explorer.",
+    ]}
+    loop={true}
+    cursor
+    cursorStyle="|"
+    typeSpeed={60}
+    deleteSpeed={40}
+    delaySpeed={1500}
+  />
+</p>
+
       <div className="mt-16 animate-bounce text-cyberGreen">
         <svg
           xmlns="http://www.w3.org/2000/svg"
