@@ -8,11 +8,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "aos": "^3.0.0-beta.6",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-typed": "^1.2.0"
-  },
+  "aos": "^3.0.0-beta.6",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0",
+  "react-simple-typewriter": "^1.0.6"
+}
+,
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "autoprefixer": "^10.4.14",
